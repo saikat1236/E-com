@@ -8,7 +8,7 @@
 
 @section('content')
 
-  @hookinsert('home.content.top')
+  <!-- @hookinsert('home.content.top') -->
 
   <section class="module-content">
     @if (system_setting('slideshow'))

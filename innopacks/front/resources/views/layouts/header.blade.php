@@ -1,9 +1,9 @@
 @hookinsert('layout.header.top')
 
 <header>
-  <div class="header-top">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="language-switch d-flex align-items-center">
+  <!-- <div class="header-top"> -->
+    <!-- <div class="container d-flex justify-content-between align-items-center"> -->
+      <!-- <div class="language-switch d-flex align-items-center">
         @if (locales()->count() > 1)
           <div class="dropdown">
             <a class="btn dropdown-toggle" href="javascript:void(0)">
@@ -35,15 +35,15 @@
             </div>
           </div>
         @endif
-      </div>
-      <div class="top-info">
+      </div> -->
+      <!-- <div class="top-info">
         <a href="{{ front_route('articles.index') }}">News</a>
         @hookupdate('layouts.header.telephone')
         <span><i class="bi bi-telephone-outbound"></i> {{ system_setting('telephone') }}</span>
         @endhookupdate
-      </div>
-    </div>
-  </div>
+      </div> -->
+    <!-- </div> -->
+  <!-- </div> -->
   <div class="header-desktop">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="left">

@@ -32,7 +32,7 @@ class CurrencySeeder extends Seeder
     {
         return [
             ['name' => 'USD', 'code' => 'usd', 'symbol_left' => '$', 'symbol_right' => '', 'decimal_place' => 2, 'value' => 1, 'active' => 1],
-            ['name' => '人民币', 'code' => 'cny', 'symbol_left' => '￥', 'symbol_right' => '', 'decimal_place' => 2, 'value' => 7.2, 'active' => 1],
+            // ['name' => '人民币', 'code' => 'cny', 'symbol_left' => '￥', 'symbol_right' => '', 'decimal_place' => 2, 'value' => 7.2, 'active' => 1],
         ];
     }
 }

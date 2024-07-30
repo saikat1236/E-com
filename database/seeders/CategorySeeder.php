@@ -41,11 +41,11 @@ class CategorySeeder extends Seeder
                 'position'     => 1,
                 'active'       => 1,
                 'translations' => [
-                    [
-                        'locale'  => 'zh_cn',
-                        'name'    => '女装',
-                        'content' => '女性时尚服装',
-                    ],
+                    // [
+                    //     'locale'  => 'zh_cn',
+                    //     'name'    => '女装',
+                    //     'content' => '女性时尚服装',
+                    // ],
                     [
                         'locale'  => 'en',
                         'name'    => 'Women',
@@ -58,11 +58,11 @@ class CategorySeeder extends Seeder
                         'position'     => 1,
                         'active'       => 1,
                         'translations' => [
-                            [
-                                'locale'  => 'zh_cn',
-                                'name'    => '休闲装',
-                                'content' => '休闲风格的女装',
-                            ],
+                            // [
+                            //     'locale'  => 'zh_cn',
+                            //     'name'    => '休闲装',
+                            //     'content' => '休闲风格的女装',
+                            // ],
                             [
                                 'locale'  => 'en',
                                 'name'    => 'Casual Wear',

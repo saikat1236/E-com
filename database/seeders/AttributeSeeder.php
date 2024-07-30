@@ -113,13 +113,13 @@ class AttributeSeeder extends Seeder
     private function getGroupTranslations(): array
     {
         return [
-            ['attribute_group_id' => 1, 'locale' => 'zh_cn', 'name' => '默认'],
+            // ['attribute_group_id' => 1, 'locale' => 'zh_cn', 'name' => '默认'],
             ['attribute_group_id' => 1, 'locale' => 'en', 'name' => 'Default'],
-            ['attribute_group_id' => 2, 'locale' => 'zh_cn', 'name' => '衣服'],
+            // ['attribute_group_id' => 2, 'locale' => 'zh_cn', 'name' => '衣服'],
             ['attribute_group_id' => 2, 'locale' => 'en', 'name' => 'Clothing'],
-            ['attribute_group_id' => 3, 'locale' => 'zh_cn', 'name' => '运动'],
+            // ['attribute_group_id' => 3, 'locale' => 'zh_cn', 'name' => '运动'],
             ['attribute_group_id' => 3, 'locale' => 'en', 'name' => 'Sport'],
-            ['attribute_group_id' => 4, 'locale' => 'zh_cn', 'name' => '配饰'],
+            // ['attribute_group_id' => 4, 'locale' => 'zh_cn', 'name' => '配饰'],
             ['attribute_group_id' => 4, 'locale' => 'en', 'name' => 'Accessory'],
         ];
     }
@@ -127,11 +127,11 @@ class AttributeSeeder extends Seeder
     private function getAttributes(): array
     {
         return [
+            // ['attribute_group_id' => 2, 'category_id' => 1, 'position' => 0],
             ['attribute_group_id' => 2, 'category_id' => 1, 'position' => 0],
-            ['attribute_group_id' => 2, 'category_id' => 1, 'position' => 0],
-            ['attribute_group_id' => 2, 'category_id' => 1, 'position' => 0],
+            // ['attribute_group_id' => 2, 'category_id' => 1, 'position' => 0],
             ['attribute_group_id' => 3, 'category_id' => 1, 'position' => 0],
-            ['attribute_group_id' => 4, 'category_id' => 1, 'position' => 0],
+            // ['attribute_group_id' => 4, 'category_id' => 1, 'position' => 0],
             ['attribute_group_id' => 4, 'category_id' => 1, 'position' => 0],
         ];
     }
@@ -139,17 +139,17 @@ class AttributeSeeder extends Seeder
     private function getAttributeTranslations(): array
     {
         return [
-            ['attribute_id' => 1, 'locale' => 'zh_cn', 'name' => '功能'],
+            // ['attribute_id' => 1, 'locale' => 'zh_cn', 'name' => '功能'],
             ['attribute_id' => 1, 'locale' => 'en', 'name' => 'Features'],
-            ['attribute_id' => 2, 'locale' => 'zh_cn', 'name' => '面料'],
+            // ['attribute_id' => 2, 'locale' => 'zh_cn', 'name' => '面料'],
             ['attribute_id' => 2, 'locale' => 'en', 'name' => 'Fabric'],
-            ['attribute_id' => 3, 'locale' => 'zh_cn', 'name' => '样式'],
+            // ['attribute_id' => 3, 'locale' => 'zh_cn', 'name' => '样式'],
             ['attribute_id' => 3, 'locale' => 'en', 'name' => 'Style'],
-            ['attribute_id' => 4, 'locale' => 'zh_cn', 'name' => '缓震'],
+            // ['attribute_id' => 4, 'locale' => 'zh_cn', 'name' => '缓震'],
             ['attribute_id' => 4, 'locale' => 'en', 'name' => 'Cushioning'],
             ['attribute_id' => 5, 'locale' => 'zh_cn', 'name' => 'CUP'],
             ['attribute_id' => 5, 'locale' => 'en', 'name' => 'CUP'],
-            ['attribute_id' => 6, 'locale' => 'zh_cn', 'name' => '内存'],
+            // ['attribute_id' => 6, 'locale' => 'zh_cn', 'name' => '内存'],
             ['attribute_id' => 6, 'locale' => 'en', 'name' => 'Memory'],
         ];
     }

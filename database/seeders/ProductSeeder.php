@@ -40,10 +40,10 @@ class ProductSeeder extends Seeder
                 'brand_id'     => 1,
                 'slug'         => 'galaxy-glow-evening-gown',
                 'translations' => [
-                    [
-                        'locale' => 'zh_cn',
-                        'name'   => '银河流光璀璨晚礼服闪耀全场',
-                    ],
+                    // [
+                    //     'locale' => 'zh_cn',
+                    //     'name'   => '银河流光璀璨晚礼服闪耀全场',
+                    // ],
                     [
                         'locale' => 'en',
                         'name'   => 'Galaxy Glittering Evening Gown Shines Everywhere',
