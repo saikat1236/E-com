@@ -1,23 +1,21 @@
-# InnoShop
-InnoShop - 创新开源电商系统
+**InnoShop - Innovative Open Source E-commerce System**
 
-## 介绍
-- 面向全球的开源电商系统, 15年行业持续深耕集大成者。
-- 用户友好、界面直观、快速上手、响应式设计。
-- 基于最新技术, 深度集成 AI, 支持多语言和多货币等特性。
-- 高内聚、低耦合的模块化设计, 简单方便快速开发插件。
+**Introduction**
+An open-source e-commerce system for global users, representing the culmination of 15 years of continuous industry dedication. User-friendly, intuitive interface, quick to get started, and responsive design. Based on the latest technology, deeply integrated with AI, supporting features like multiple languages and currencies. It has a highly cohesive and loosely coupled modular design, making it simple and quick to develop plugins.
 
-## 安装及开发文档
-开发文档撰写中...
-- http://docs.innoshop.cn/
+**Installation and Development Documentation**
+Development documentation is being written...
 
-## Demo 演示站
-- 前台: https://demo.innoshop.cn/
-- 后台: https://demo.innoshop.cn/panel
-- 账号: admin@innoshop.com
-- 密码: 123456
+[http://docs.innoshop.cn/](http://docs.innoshop.cn/)
 
-### Demo 前台截图
+**Demo**
+- **Frontend**: [https://demo.innoshop.cn/](https://demo.innoshop.cn/)
+- **Backend**: [https://demo.innoshop.cn/panel](https://demo.innoshop.cn/panel)
+  - **Account**: admin@innoshop.com
+  - **Password**: 123456
+
+**Demo Frontend Screenshots**
+
 <p align="center">
     <a href="https://www.innoshop.cn" target="_blank">
         <img src="https://www.innoshop.cn/images/readme/front.jpg?v" alt="Front">
@@ -30,6 +28,3 @@ InnoShop - 创新开源电商系统
         <img src="https://www.innoshop.cn/images/readme/panel.jpg?v" alt="Panel">
     </a>
 </p>
-
-- 如果您发现 `InnoShop` 对您有所帮助，请不吝赐给我们一个星星(star)。
-- 您的每一次点赞都是我们不断进步的动力。
